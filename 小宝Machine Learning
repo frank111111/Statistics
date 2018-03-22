@@ -1,4 +1,4 @@
-1. Flexible & non Flexible
+1. Flexible & Non Flexible
 
     本来是y=β1x1+β2x2+λ 结果现在是 y=β1x1+λ   这个是 less flexible
     本来是 y=β1x1+λ 结果现在是 y=β1x1+β2x2+λ   这个是 more flexible
@@ -21,6 +21,10 @@
      如果T检验显著，F检验不显著，这个model 还是没用。如果F显著，某一个T不显著，那就把这个T去掉
      
      F统计量公式: (SSR/1)/ (SSE/(N-2))  F统计量服从自由度为1和n-2 的F分布。（N 是sample size） ????????
+     F检验p value< 0.05 一般来说是显著的，但是如果希望model 预测的非常精确，那么p value<0.01 比较好。
+     
+     
+     
      
      
      
