@@ -1,0 +1,33 @@
+1. Flexible & non Flexible
+
+    本来是y=β1x1+β2x2+λ 结果现在是 y=β1x1+λ   这个是 less flexible
+    本来是 y=β1x1+λ 结果现在是 y=β1x1+β2x2+λ   这个是 more flexible
+    
+   less flexible 会导致问题： 因为variable 用的少了，会丢失信息，会产生更大的bias （信息少,variable x 少，拟合出来的y 会和真实值更偏离, bias 就大）
+                    优点： 模型的方差会小, stand error will be less. (每一个x的参数方差是他的估计的参数和真实参数之间的偏差）
+                          模型的方差是每一个参数方差之和？？？？？？？？？？
+                          
+                         
+ 2. Multiple R-Squared 计算方法：  SSR(Sum Square of Regreesion)/SST (Sum Square of Total)
+     SSR （Y 的估计值-Y 的平均值的平方和）+SSE （Y 的真实值-Y的估计值得平方和）=SST （Y 的真实值-Y 的平均值的平方和）
+    
+    Adjusted R-Squared 是Multiple R-Squared 的修正
+  
+    R-Squared 是总variable 解释了模型信息的百分之几
+    
+    
+  3. T 检验某一个varibale 显著不显著
+     F 检验是model 显著不显著，model 有没有用. 
+     如果T检验显著，F检验不显著，这个model 还是没用。如果F显著，某一个T不显著，那就把这个T去掉
+     
+     F统计量公式: (SSR/1)/ (SSE/(N-2))  F统计量服从自由度为1和n-2 的F分布。（N 是sample size） ????????
+     
+     
+     
+     
+     
+     
+    
+                          
+                    
+    
